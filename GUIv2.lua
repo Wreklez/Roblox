@@ -1,5 +1,5 @@
 local Wreklez = {RainbowColorValue = 0, HueSelectionPosition = 0}
-_G.PresetColor = Color3.fromRGB(176, 0, 153)
+_G.PresetColor = Color3.fromRGB(255, 55, 153)
 local UserInputService = game:GetService("UserInputService")
 local TweenService = game:GetService("TweenService")
 local RunService = game:GetService("RunService")
