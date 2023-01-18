@@ -6,6 +6,6 @@ if game.PlaceId == 1537690962 then
     local Tab = Window:NewTab("Farm")
     local Tab = Window:NewTab("Misc")
     local Tab = Window:NewTab("Settings")
-    local Tab = Window:NewTab("Jebac")
+
 
 end
