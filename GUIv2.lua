@@ -404,7 +404,7 @@ function Wreklez:Window(text, bottom,mainclr)
 
 		Tab.Name = "Tab"
 		Tab.Parent = TabHold
-		Tab.BackgroundColor3 = _G.PresetColor
+		Tab.BackgroundColor3 = (0, 255, 0)
 		Tab.BorderSizePixel = 0
 		Tab.Size = UDim2.new(0, 205, 0, 40)
 		Tab.AutoButtonColor = false
