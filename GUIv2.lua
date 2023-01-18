@@ -404,7 +404,7 @@ function Wreklez:Window(text, bottom,mainclr)
 
 		Tab.Name = "Tab"
 		Tab.Parent = TabHold
-		Tab.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+		Tab.BackgroundColor3 = Color3.fromRGB(76, 0, 153)
 		Tab.BorderSizePixel = 0
 		Tab.Size = UDim2.new(0, 205, 0, 40)
 		Tab.AutoButtonColor = false
@@ -2912,11 +2912,11 @@ function Wreklez:Window(text, bottom,mainclr)
 	_G.changeColor = function()
 	for i,v in pairs(game.CoreGui.WreklezLib:GetDescendants()) do
 	if v.Name == "Tab" and v.Parent.Name == "TabHold" then
-		v.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+		v.BackgroundColor3 = Color3.fromRGB(76, 0, 153)
 	elseif v.Name == "CurrentValueFrame" and v.Parent.Name == "SlideFrame" then
-		v.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+		v.BackgroundColor3 = Color3.fromRGB(76, 0, 153)
 	elseif v.Name == "SlideCircle" and v.Parent.Name == "SlideFrame" then
-		v.ImageColor3 = Color3.fromRGB(0, 255, 0)
+		v.ImageColor3 = Color3.fromRGB(76, 0, 153)
 	end
 end
 	end
