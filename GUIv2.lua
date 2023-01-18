@@ -1,5 +1,5 @@
 local Wreklez = {RainbowColorValue = 0, HueSelectionPosition = 0}
-_G.PresetColor = Color3.fromRGB(66, 134, 255)
+_G.PresetColor = Color3.fromRGB(76, 0, 153)
 local UserInputService = game:GetService("UserInputService")
 local TweenService = game:GetService("TweenService")
 local RunService = game:GetService("RunService")
@@ -779,7 +779,7 @@ function Wreklez:Window(text, bottom,mainclr)
 			Toggle.Font = Enum.Font.SourceSans
 			Toggle.Text = ""
 			Toggle.TextColor3 = Color3.fromRGB(0, 0, 0)
-			Toggle.TextSize = 14.000
+			Toggle.TextSize = 10.000
 
 			ToggleCorner.CornerRadius = UDim.new(0, 4)
 			ToggleCorner.Name = "ToggleCorner"
@@ -794,7 +794,7 @@ function Wreklez:Window(text, bottom,mainclr)
 			Title.Font = Enum.Font.Gotham
 			Title.Text = text
 			Title.TextColor3 = Color3.fromRGB(255, 255, 255)
-			Title.TextSize = 15.000
+			Title.TextSize = 10.000
 			Title.TextTransparency = 0.300
 			Title.TextXAlignment = Enum.TextXAlignment.Left
 
