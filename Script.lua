@@ -3,9 +3,11 @@ local Window = Library.CreateLib("Wreklez Bee Swarm Simulator", "DarkTheme")
 
 if game.PlaceId == 1537690962 then
     
-    local Tab = Window:NewTab("Farm")
-    local Tab = Window:NewTab("Misc")
-    local Tab = Window:NewTab("Settings")
+    local Farm = Window:NewTab("Farm")
+    local FarmSection = Farm:NewSection
 
+    FarmSection:NewButton("ButtonText", "ButtonInfo", function()
+        print("Clicked")
+    end)
 
 end
