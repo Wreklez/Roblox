@@ -1,4 +1,4 @@
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Wreklez/Roblox/main/GUI.lua?token=GHSAT0AAAAAAB5TXE2TBHMI7BP3SROERLIIY6HNHXA"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Wreklez/Roblox/main/GUI.lua"))()
 local Window = Library.CreateLib("Wreklez Bee Swarm Simulator", "DarkTheme")
 
 if game.PlaceId == 1537690962 then
