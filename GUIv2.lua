@@ -641,17 +641,17 @@ function Wreklez:Window(text, bottom,mainclr)
 					TweenService:Create(
 						Title,
 						TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-						{TextColor3 = _G.PresetColor}
+						{TextColor3 = (0,255,0)}
 					):Play()
 					TweenService:Create(
 						ArrowIco,
 						TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-						{ImageColor3 = _G.PresetColor}
+						{ImageColor3 = (0,255,0)}
 					):Play()
 					TweenService:Create(
 						Circle,
 						TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-						{BackgroundColor3 = _G.PresetColor}
+						{BackgroundColor3 = (0,255,0)}
 					):Play()
 				until BtnDescToggled == false
 									TweenService:Create(
@@ -700,12 +700,12 @@ function Wreklez:Window(text, bottom,mainclr)
 					TweenService:Create(
 						Title,
 						TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-						{TextColor3 = _G.PresetColor}
+						{TextColor3 = (0,255,0)}
 					):Play()
 					TweenService:Create(
 						ArrowIco,
 						TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-						{ImageColor3 = _G.PresetColor}
+						{ImageColor3 = (0,255,0)}
 					):Play()
 					TweenService:Create(
 						ArrowIco,
@@ -720,7 +720,7 @@ function Wreklez:Window(text, bottom,mainclr)
 					TweenService:Create(
 						Circle,
 						TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-						{BackgroundColor3 = _G.PresetColor}
+						{BackgroundColor3 = (0,255,0)}
 					):Play()
 					TweenService:Create(
 						CircleSmall,
@@ -901,7 +901,7 @@ function Wreklez:Window(text, bottom,mainclr)
 					TweenService:Create(
 						ToggleCircle,
 						TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-						{BackgroundColor3 =_G.PresetColor}
+						{BackgroundColor3 =(0,255,0)}
 					):Play()
 				until Toggled == false
 									TweenService:Create(
@@ -915,7 +915,7 @@ function Wreklez:Window(text, bottom,mainclr)
 					TweenService:Create(
 						ToggleCircle,
 						TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-						{BackgroundColor3 =_G.PresetColor}
+						{BackgroundColor3 =(0,255,0)}
 					):Play()
 					ToggleCircle:TweenPosition(UDim2.new(0.37, 0,-0.273, 0), Enum.EasingDirection.Out, Enum.EasingStyle.Quart, .3, true)
 				else
@@ -933,17 +933,17 @@ function Wreklez:Window(text, bottom,mainclr)
 					TweenService:Create(
 						Title,
 						TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-						{TextColor3 = _G.PresetColor}
+						{TextColor3 = (0,255,0)}
 					):Play()
 					TweenService:Create(
 						ArrowIco,
 						TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-						{ImageColor3 = _G.PresetColor}
+						{ImageColor3 = (0,255,0)}
 					):Play()
 										TweenService:Create(
 						Circle,
 						TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-						{BackgroundColor3 = _G.PresetColor}
+						{BackgroundColor3 = (0,255,0)}
 					):Play()
 									until ToggleDescToggled == false
 														TweenService:Create(
@@ -992,12 +992,12 @@ function Wreklez:Window(text, bottom,mainclr)
 					TweenService:Create(
 						Title,
 						TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-						{TextColor3 = _G.PresetColor}
+						{TextColor3 = (0,255,0)}
 					):Play()
 					TweenService:Create(
 						ArrowIco,
 						TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-						{ImageColor3 = _G.PresetColor}
+						{ImageColor3 = (0,255,0)}
 					):Play()
 					TweenService:Create(
 						ArrowIco,
@@ -1012,7 +1012,7 @@ function Wreklez:Window(text, bottom,mainclr)
 					TweenService:Create(
 						Circle,
 						TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-						{BackgroundColor3 = _G.PresetColor}
+						{BackgroundColor3 = (0,255,0)}
 					):Play()
 					TweenService:Create(
 						CircleSmall,
@@ -1043,7 +1043,7 @@ function Wreklez:Window(text, bottom,mainclr)
 				TweenService:Create(
 					ToggleCircle,
 					TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-					{BackgroundColor3 =_G.PresetColor}
+					{BackgroundColor3 =(0,255,0)}
 				):Play()
 				Toggled = not Toggled
 				pcall(callback, Toggled)
