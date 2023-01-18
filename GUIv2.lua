@@ -404,7 +404,7 @@ function Wreklez:Window(text, bottom,mainclr)
 
 		Tab.Name = "Tab"
 		Tab.Parent = TabHold
-		Tab.BackgroundColor3 = (0, 255, 0)
+		Tab.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
 		Tab.BorderSizePixel = 0
 		Tab.Size = UDim2.new(0, 205, 0, 40)
 		Tab.AutoButtonColor = false
@@ -641,17 +641,17 @@ function Wreklez:Window(text, bottom,mainclr)
 					TweenService:Create(
 						Title,
 						TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-						{TextColor3 = (0, 255, 0)}
+						{TextColor3 = Color3.fromRGB(0, 255, 0)}
 					):Play()
 					TweenService:Create(
 						ArrowIco,
 						TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-						{ImageColor3 = (0, 255, 0)}
+						{ImageColor3 = Color3.fromRGB(0,255,0)}
 					):Play()
 					TweenService:Create(
 						Circle,
 						TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-						{BackgroundColor3 = (0, 255, 0)}
+						{BackgroundColor3 = Color3.fromRGB(0, 255, 0)}
 					):Play()
 				until BtnDescToggled == false
 									TweenService:Create(
@@ -700,12 +700,12 @@ function Wreklez:Window(text, bottom,mainclr)
 					TweenService:Create(
 						Title,
 						TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-						{TextColor3 = (0, 255, 0)}
+						{TextColor3 = Color3.fromRGB(0, 255, 0)}
 					):Play()
 					TweenService:Create(
 						ArrowIco,
 						TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-						{ImageColor3 = (0, 255, 0)}
+						{ImageColor3 = Color3.fromRGB(0, 255, 0)}
 					):Play()
 					TweenService:Create(
 						ArrowIco,
@@ -720,7 +720,7 @@ function Wreklez:Window(text, bottom,mainclr)
 					TweenService:Create(
 						Circle,
 						TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-						{BackgroundColor3 = (0, 255, 0)}
+						{BackgroundColor3 = Color3.fromRGB(0, 255, 0)}
 					):Play()
 					TweenService:Create(
 						CircleSmall,
@@ -901,7 +901,7 @@ function Wreklez:Window(text, bottom,mainclr)
 					TweenService:Create(
 						ToggleCircle,
 						TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-						{BackgroundColor3 =(0, 255, 0)}
+						{BackgroundColor3 =Color3.fromRGB(0, 255, 0)}
 					):Play()
 				until Toggled == false
 									TweenService:Create(
@@ -915,7 +915,7 @@ function Wreklez:Window(text, bottom,mainclr)
 					TweenService:Create(
 						ToggleCircle,
 						TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-						{BackgroundColor3 =(0, 255, 0)}
+						{BackgroundColor3 =Color3.fromRGB(0, 255, 0)}
 					):Play()
 					ToggleCircle:TweenPosition(UDim2.new(0.37, 0,-0.273, 0), Enum.EasingDirection.Out, Enum.EasingStyle.Quart, .3, true)
 				else
@@ -933,17 +933,17 @@ function Wreklez:Window(text, bottom,mainclr)
 					TweenService:Create(
 						Title,
 						TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-						{TextColor3 = (0, 255, 0)}
+						{TextColor3 = Color3.fromRGB(0, 255, 0)}
 					):Play()
 					TweenService:Create(
 						ArrowIco,
 						TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-						{ImageColor3 = (0, 255, 0)}
+						{ImageColor3 = Color3.fromRGB(0, 255, 0)}
 					):Play()
 										TweenService:Create(
 						Circle,
 						TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-						{BackgroundColor3 = (0, 255, 0)}
+						{BackgroundColor3 = Color3.fromRGB(0, 255, 0)}
 					):Play()
 									until ToggleDescToggled == false
 														TweenService:Create(
@@ -992,12 +992,12 @@ function Wreklez:Window(text, bottom,mainclr)
 					TweenService:Create(
 						Title,
 						TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-						{TextColor3 = (0, 255, 0)}
+						{TextColor3 = Color3.fromRGB(0, 255, 0)}
 					):Play()
 					TweenService:Create(
 						ArrowIco,
 						TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-						{ImageColor3 = (0, 255, 0)}
+						{ImageColor3 = Color3.fromRGB(0, 255, 0)}
 					):Play()
 					TweenService:Create(
 						ArrowIco,
@@ -1012,7 +1012,7 @@ function Wreklez:Window(text, bottom,mainclr)
 					TweenService:Create(
 						Circle,
 						TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-						{BackgroundColor3 = (0, 255, 0)}
+						{BackgroundColor3 = Color3.fromRGB(0, 255, 0)}
 					):Play()
 					TweenService:Create(
 						CircleSmall,
@@ -1043,7 +1043,7 @@ function Wreklez:Window(text, bottom,mainclr)
 				TweenService:Create(
 					ToggleCircle,
 					TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-					{BackgroundColor3 =(0, 255, 0)}
+					{BackgroundColor3 =Color3.fromRGB(0, 255, 0)}
 				):Play()
 				Toggled = not Toggled
 				pcall(callback, Toggled)
@@ -1151,7 +1151,7 @@ function Wreklez:Window(text, bottom,mainclr)
 
 			CurrentValueFrame.Name = "CurrentValueFrame"
 			CurrentValueFrame.Parent = SlideFrame
-			CurrentValueFrame.BackgroundColor3 = (0, 255, 0)
+			CurrentValueFrame.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
 			CurrentValueFrame.BorderSizePixel = 0
 			CurrentValueFrame.Size = UDim2.new((start or 0) / max, 0, 0, 3)
 
@@ -1162,7 +1162,7 @@ function Wreklez:Window(text, bottom,mainclr)
 			SlideCircle.Position = UDim2.new((start or 0)/max, -6,-1.30499995, 0)
 			SlideCircle.Size = UDim2.new(0, 11, 0, 11)
 			SlideCircle.Image = "rbxassetid://3570695787"
-			SlideCircle.ImageColor3 = (0, 255, 0)
+			SlideCircle.ImageColor3 = Color3.fromRGB(0, 255, 0)
 
 			ArrowBtn.Name = "ArrowBtn"
 			ArrowBtn.Parent = Slider
@@ -1205,17 +1205,17 @@ function Wreklez:Window(text, bottom,mainclr)
 					TweenService:Create(
 						Value,
 						TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-						{TextColor3 = (0, 255, 0)}
+						{TextColor3 = Color3.fromRGB(0, 255, 0)}
 					):Play()
 					TweenService:Create(
 						ArrowIco,
 						TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-						{ImageColor3 = (0, 255, 0)}
+						{ImageColor3 = Color3.fromRGB(0, 255, 0)}
 					):Play()
 						TweenService:Create(
 						Circle,
 						TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-						{BackgroundColor3 =(0, 255, 0)}
+						{BackgroundColor3 =Color3.fromRGB(0, 255, 0)}
 					):Play()
 					until SliderDescToggled == false
 										TweenService:Create(
@@ -1269,12 +1269,12 @@ function Wreklez:Window(text, bottom,mainclr)
 					TweenService:Create(
 						Value,
 						TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-						{TextColor3 = (0, 255, 0)}
+						{TextColor3 = Color3.fromRGB(0, 255, 0)}
 					):Play()
 					TweenService:Create(
 						ArrowIco,
 						TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-						{ImageColor3 = (0, 255, 0)}
+						{ImageColor3 = Color3.fromRGB(0, 255, 0)}
 					):Play()
 					TweenService:Create(
 						ArrowIco,
@@ -1289,7 +1289,7 @@ function Wreklez:Window(text, bottom,mainclr)
 					TweenService:Create(
 						Circle,
 						TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-						{BackgroundColor3 =(0, 255, 0)}
+						{BackgroundColor3 =Color3.fromRGB(0, 255, 0)}
 					):Play()
 					TweenService:Create(
 						CircleSmall,
@@ -1491,17 +1491,17 @@ function Wreklez:Window(text, bottom,mainclr)
 					TweenService:Create(
 						Title,
 						TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-						{TextColor3 = (0, 255, 0)}
+						{TextColor3 = Color3.fromRGB(0, 255, 0)}
 					):Play()
 					TweenService:Create(
 						ArrowIco,
 						TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-						{ImageColor3 = (0, 255, 0)}
+						{ImageColor3 = Color3.fromRGB(0, 255, 0)}
 					):Play()
 					TweenService:Create(
 						Circle,
 						TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-						{BackgroundColor3 = (0, 255, 0)}
+						{BackgroundColor3 = Color3.fromRGB(0, 255, 0)}
 					):Play()
 				until DropToggled == false
 									TweenService:Create(
@@ -1546,12 +1546,12 @@ function Wreklez:Window(text, bottom,mainclr)
 					TweenService:Create(
 						Title,
 						TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-						{TextColor3 = (0, 255, 0)}
+						{TextColor3 = Color3.fromRGB(0, 255, 0)}
 					):Play()
 					TweenService:Create(
 						ArrowIco,
 						TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-						{ImageColor3 = (0, 255, 0)}
+						{ImageColor3 = Color3.fromRGB(0, 255, 0)}
 					):Play()
 					TweenService:Create(
 						ArrowIco,
@@ -1566,7 +1566,7 @@ function Wreklez:Window(text, bottom,mainclr)
 					TweenService:Create(
 						Circle,
 						TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-						{BackgroundColor3 = (0, 255, 0)}
+						{BackgroundColor3 = Color3.fromRGB(0, 255, 0)}
 					):Play()
 					TweenService:Create(
 						CircleSmall,
@@ -2129,12 +2129,12 @@ function Wreklez:Window(text, bottom,mainclr)
 					TweenService:Create(
 						Title,
 						TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-						{TextColor3 = (0, 255, 0)}
+						{TextColor3 = Color3.fromRGB(0, 255, 0)}
 					):Play()
 					TweenService:Create(
 						Circle,
 						TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-						{BackgroundColor3 = (0, 255, 0)}
+						{BackgroundColor3 = Color3.fromRGB(0, 255, 0)}
 					):Play()
 				until ColorPickerToggled == false
 									TweenService:Create(
@@ -2165,12 +2165,12 @@ function Wreklez:Window(text, bottom,mainclr)
 					TweenService:Create(
 						Title,
 						TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-						{TextColor3 = (0, 255, 0)}
+						{TextColor3 = Color3.fromRGB(0, 255, 0)}
 					):Play()
 					TweenService:Create(
 						Circle,
 						TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-						{BackgroundColor3 = (0, 255, 0)}
+						{BackgroundColor3 = Color3.fromRGB(0, 255, 0)}
 					):Play()
 					TweenService:Create(
 						CircleSmall,
@@ -2316,7 +2316,7 @@ function Wreklez:Window(text, bottom,mainclr)
 						TweenService:Create(
 							ToggleCircle,
 							TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-							{BackgroundColor3 =(0, 255, 0)}
+							{BackgroundColor3 =Color3.fromRGB(0, 255, 0)}
 						):Play()
 					until RainbowColorPicker == false
 											TweenService:Create(
@@ -2330,7 +2330,7 @@ function Wreklez:Window(text, bottom,mainclr)
 						TweenService:Create(
 							ToggleCircle,
 							TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-							{BackgroundColor3 =(0, 255, 0)}
+							{BackgroundColor3 =Color3.fromRGB(0, 255, 0)}
 						):Play()
 
 						OldToggleColor = BoxColor.BackgroundColor3
@@ -2598,17 +2598,17 @@ function Wreklez:Window(text, bottom,mainclr)
 					TweenService:Create(
 						Title,
 						TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-						{TextColor3 = (0, 255, 0)}
+						{TextColor3 = Color3.fromRGB(0, 255, 0)}
 					):Play()
 					TweenService:Create(
 						ArrowIco,
 						TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-						{ImageColor3 = (0, 255, 0)}
+						{ImageColor3 = Color3.fromRGB(0, 255, 0)}
 					):Play()
 					TweenService:Create(
 						Circle,
 						TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-						{BackgroundColor3 = (0, 255, 0)}
+						{BackgroundColor3 = Color3.fromRGB(0, 255, 0)}
 					):Play()
 				until TextboxDescToggled == false
 									TweenService:Create(
@@ -2657,12 +2657,12 @@ function Wreklez:Window(text, bottom,mainclr)
 					TweenService:Create(
 						Title,
 						TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-						{TextColor3 = (0, 255, 0)}
+						{TextColor3 = Color3.fromRGB(0, 255, 0)}
 					):Play()
 					TweenService:Create(
 						ArrowIco,
 						TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-						{ImageColor3 = (0, 255, 0)}
+						{ImageColor3 = Color3.fromRGB(0, 255, 0)}
 					):Play()
 					TweenService:Create(
 						ArrowIco,
@@ -2677,7 +2677,7 @@ function Wreklez:Window(text, bottom,mainclr)
 					TweenService:Create(
 						Circle,
 						TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-						{BackgroundColor3 = (0, 255, 0)}
+						{BackgroundColor3 = Color3.fromRGB(0, 255, 0)}
 					):Play()
 					TweenService:Create(
 						CircleSmall,
@@ -2807,17 +2807,17 @@ function Wreklez:Window(text, bottom,mainclr)
 					TweenService:Create(
 						Title,
 						TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-						{TextColor3 = (0, 255, 0)}
+						{TextColor3 = Color3.fromRGB(0, 255, 0)}
 					):Play()
 					TweenService:Create(
 						BindLabel,
 						TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-						{TextColor3 = (0, 255, 0)}
+						{TextColor3 = Color3.fromRGB(0, 255, 0)}
 					):Play()
 					TweenService:Create(
 						Circle,
 						TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-						{BackgroundColor3 = (0, 255, 0)}
+						{BackgroundColor3 = Color3.fromRGB(0, 255, 0)}
 					):Play()
 					game:GetService'UserInputService'.InputBegan:connect(function()
 					hasInputBegan = true
@@ -2858,17 +2858,17 @@ function Wreklez:Window(text, bottom,mainclr)
 					TweenService:Create(
 						Title,
 						TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-						{TextColor3 = (0, 255, 0)}
+						{TextColor3 = Color3.fromRGB(0, 255, 0)}
 					):Play()
 					TweenService:Create(
 						BindLabel,
 						TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-						{TextColor3 = (0, 255, 0)}
+						{TextColor3 = Color3.fromRGB(0, 255, 0)}
 					):Play()
 					TweenService:Create(
 						Circle,
 						TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-						{BackgroundColor3 = (0, 255, 0)}
+						{BackgroundColor3 = Color3.fromRGB(0, 255, 0)}
 					):Play()
 					TweenService:Create(
 						CircleSmall,
@@ -2912,11 +2912,11 @@ function Wreklez:Window(text, bottom,mainclr)
 	_G.changeColor = function()
 	for i,v in pairs(game.CoreGui.WreklezLib:GetDescendants()) do
 	if v.Name == "Tab" and v.Parent.Name == "TabHold" then
-		v.BackgroundColor3 = (0, 255, 0)
+		v.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
 	elseif v.Name == "CurrentValueFrame" and v.Parent.Name == "SlideFrame" then
-		v.BackgroundColor3 = (0, 255, 0)
+		v.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
 	elseif v.Name == "SlideCircle" and v.Parent.Name == "SlideFrame" then
-		v.ImageColor3 = (0, 255, 0)
+		v.ImageColor3 = Color3.fromRGB(0, 255, 0)
 	end
 end
 	end
