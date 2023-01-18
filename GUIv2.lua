@@ -6,7 +6,6 @@ local RunService = game:GetService("RunService")
 local LocalPlayer = game:GetService("Players").LocalPlayer
 local Mouse = LocalPlayer:GetMouse()
 local CloseBind = Enum.KeyCode.RightControl
-isKeyLeft = true
 
 local FluxLib = Instance.new("ScreenGui")
 FluxLib.Name = "FluxLib"
