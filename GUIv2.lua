@@ -1,4 +1,4 @@
-local Flux = {RainbowColorValue = 0, HueSelectionPosition = 0}
+local Wreklez = {RainbowColorValue = 0, HueSelectionPosition = 0}
 _G.PresetColor = Color3.fromRGB(66, 134, 255)
 local UserInputService = game:GetService("UserInputService")
 local TweenService = game:GetService("TweenService")
@@ -7,23 +7,23 @@ local LocalPlayer = game:GetService("Players").LocalPlayer
 local Mouse = LocalPlayer:GetMouse()
 local CloseBind = Enum.KeyCode.LeftControl
 
-local FluxLib = Instance.new("ScreenGui")
-FluxLib.Name = "FluxLib"
-FluxLib.Parent = game.CoreGui
-FluxLib.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+local WreklezLib = Instance.new("ScreenGui")
+WreklezLib.Name = "WreklezLib"
+WreklezLib.Parent = game.CoreGui
+WreklezLib.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 coroutine.wrap(
 	function()
 		while wait() do
-			Flux.RainbowColorValue = Flux.RainbowColorValue + 1 / 255
-			Flux.HueSelectionPosition = Flux.HueSelectionPosition + 1
+			Wreklez.RainbowColorValue = Wreklez.RainbowColorValue + 1 / 255
+			Wreklez.HueSelectionPosition = Wreklez.HueSelectionPosition + 1
 
-			if Flux.RainbowColorValue >= 1 then
-				Flux.RainbowColorValue = 0
+			if Wreklez.RainbowColorValue >= 1 then
+				Wreklez.RainbowColorValue = 0
 			end
 
-			if Flux.HueSelectionPosition == 80 then
-				Flux.HueSelectionPosition = 0
+			if Wreklez.HueSelectionPosition == 80 then
+				Wreklez.HueSelectionPosition = 0
 			end
 		end
 	end
@@ -87,7 +87,7 @@ end
 
 
 
-function Flux:Window(text, bottom,mainclr)
+function Wreklez:Window(text, bottom,mainclr)
     CloseBind = toclose or Enum.KeyCode.LeftControl
 	_G.PresetColor = mainclr or Color3.fromRGB(66, 134, 255)
 	local fs = false
@@ -104,7 +104,7 @@ function Flux:Window(text, bottom,mainclr)
 	local ContainerFolder = Instance.new("Folder")
 
 	MainFrame.Name = "MainFrame"
-	MainFrame.Parent = FluxLib
+	MainFrame.Parent = WreklezLib
 	MainFrame.AnchorPoint = Vector2.new(0.5, 0.5)
 	MainFrame.BackgroundColor3 = Color3.fromRGB(50, 53, 59)
 	MainFrame.ClipsDescendants = true
@@ -196,17 +196,17 @@ function Flux:Window(text, bottom,mainclr)
 					MainFrame:TweenSize(UDim2.new(0, 0, 0, 0), Enum.EasingDirection.Out, Enum.EasingStyle.Quart, .6, true)
 					uitoggled = true
 					wait(.5)
-					FluxLib.Enabled = false
+					WreklezLib.Enabled = false
 				else
 					MainFrame:TweenSize(UDim2.new(0, 706, 0, 484), Enum.EasingDirection.Out, Enum.EasingStyle.Quart, .6, true)
-					FluxLib.Enabled = true
+					WreklezLib.Enabled = true
 					uitoggled = false
 				end
 			end
 		end
 	)
 	
-	function Flux:Notification(desc,buttontitle)
+	function Wreklez:Notification(desc,buttontitle)
 		for i, v in next, MainFrame:GetChildren() do
 			if v.Name == "NotificationBase" then
 				v:Destroy()
@@ -2339,11 +2339,11 @@ function Flux:Window(text, bottom,mainclr)
 						OldHueSelectionPosition = HueSelection.Position
 
 						while RainbowColorPicker do
-							BoxColor.BackgroundColor3 = Color3.fromHSV(Flux.RainbowColorValue, 1, 1)
-							Color.BackgroundColor3 = Color3.fromHSV(Flux.RainbowColorValue, 1, 1)
+							BoxColor.BackgroundColor3 = Color3.fromHSV(Wreklez.RainbowColorValue, 1, 1)
+							Color.BackgroundColor3 = Color3.fromHSV(Wreklez.RainbowColorValue, 1, 1)
 
 							ColorSelection.Position = UDim2.new(1, 0, 0, 0)
-							HueSelection.Position = UDim2.new(0.48, 0, 0, Flux.HueSelectionPosition)
+							HueSelection.Position = UDim2.new(0.48, 0, 0, Wreklez.HueSelectionPosition)
 
 							pcall(callback, BoxColor.BackgroundColor3)
 							wait()
@@ -2910,7 +2910,7 @@ function Flux:Window(text, bottom,mainclr)
 			)
 
 	_G.changeColor = function()
-	for i,v in pairs(game.CoreGui.FluxLib:GetDescendants()) do
+	for i,v in pairs(game.CoreGui.WreklezLib:GetDescendants()) do
 	if v.Name == "Tab" and v.Parent.Name == "TabHold" then
 		v.BackgroundColor3 = _G.PresetColor
 	elseif v.Name == "CurrentValueFrame" and v.Parent.Name == "SlideFrame" then
@@ -2927,4 +2927,4 @@ end
 	end
 	return Tabs
 end
-return Flux
+return Wreklez
